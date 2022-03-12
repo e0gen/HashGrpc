@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+option csharp_namespace = "HashGrpc.Proto.Services";
+
+package hash;
+
+service Hasher {
+
+  rpc CalculateSHA256 (CalculateHashRequest) returns (CalculateHashReply);
+  rpc CalculateSHA512 (CalculateHashRequest) returns (CalculateHashReply);
+  rpc CalculateMD5	  (CalculateHashRequest) returns (CalculateHashReply);
+}
+
+message CalculateHashRequest {
+  string data = 1;
+}
+
+message CalculateHashReply {
+  string hash = 1;
+}
