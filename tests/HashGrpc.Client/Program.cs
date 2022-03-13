@@ -1,5 +1,5 @@
 ﻿using Grpc.Net.Client;
-using HashGrpc.Proto.Services;
+using HashServices.Grpc.Protos;
 
 using var channel = GrpcChannel.ForAddress("https://localhost:7135");
 

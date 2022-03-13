@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option csharp_namespace = "HashGrpc.Proto.Services";
+option csharp_namespace = "HashServices.Grpc.Protos";
 
 package hash;
 
