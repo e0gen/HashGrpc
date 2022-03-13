@@ -1,6 +1,6 @@
 using Grpc.Core;
 using HashService.Application.Core;
-using HashServices.Grpc.Protos;
+using HashService.Grpc.Protos;
 
 namespace HashService.Grpc.Services
 {
